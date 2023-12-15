@@ -1,0 +1,84 @@
+#gameContainer {
+    background-image: url(images/background.png);
+    background-size: cover;
+    text-align: center;
+    cursor: url('images/cursor.png')-12 -12 auto; /* Set the custom cursor for the whole grid */
+    height: 100vh;
+    min-width: 350px;
+}
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6x6 grid */
+    gap: 5px;
+    margin:auto;
+    width: 300px;
+}
+.counter{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: gold;
+    width: fit-content;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.questions{
+    font-size: 1.66rem;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 14px;
+    border-bottom: 2px solid gold;
+    box-shadow: 0px 0px 14px 14px rgb(236, 229, 213);
+}
+#questionContainer{
+
+    position: relative;
+    min-height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.gridCell {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    font-size: 14px; /* Adjust font size as needed */
+    color: #000; /* Text color */
+    text-align: center;
+    box-sizing: border-box; /* Ensures width and height include padding and border */
+}
+
+
+.gridCell:hover {
+    background-color: #ADD8E6; /* Light blue color on hover, adjust as needed */
+}
+.confirm_button{
+    background-color: gold;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 0 8px;
+    margin: 20px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+.confirm_button:hover{
+    cursor: pointer;
+}
