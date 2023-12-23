@@ -18,6 +18,12 @@
         { question:"How many faces does a dodecahedron have?", answer:12, imageUrl: 'images/image14.jpeg'},
         { question:"How many prime numbers are there between 10 and 30?", answer:6, imageUrl: 'images/image15.jpeg'},
         { question:"If a hexagon's each side is 2 units, what is its perimeter? ", answer:12, imageUrl: 'images/image16.jpeg'},
+        { question: "What is the result of 7 squared?", answer: 49, imageUrl: 'images/image17.jpeg' }, // 7^2
+        { question: "What is the cube root of 64?", answer: 4, imageUrl: 'images/image18.jpeg'}, // 4^3 = 64
+        { question: "If you divide 144 by what number do you get 9?", answer: 16, imageUrl: 'images/image19.jpeg' }, // 144 / 16 = 9
+        { question: "What is 15% of 100?", answer: 15, imageUrl: 'images/image20.jpeg'}, // 15% * 100 = 15
+        { question: "If you add the first four prime numbers together, what do you get?", answer: 17, imageUrl: 'images/image21.jpeg'} // 2 + 3 + 5 + 7 = 17
+
     ];
     document.addEventListener('DOMContentLoaded', function() {
         const gridContainer = document.getElementById('gridContainer');
