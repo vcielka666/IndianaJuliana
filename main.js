@@ -6,7 +6,7 @@
         { question:"How many edges does a cube have? ", answer:12, imageUrl: 'images/image2.jpeg'},
         { question:"What is 7 multiplied by 2?", answer:14, imageUrl: 'images/image3.jpeg'},
         { question:"What is the sum of the first three prime numbers?", answer:10, imageUrl: 'images/image4.jpeg'},
-        { question:"If a triangle has angles of 60 and 45 degrees, what is the third angle?", answer:75, imageUrl: 'images/image5.jpeg'},
+        { question: "If the sum of the interior angles of a regular polygon is 1080 degrees, how many sides does it have?", answer: 8, imageUrl: 'images/image2.jpeg' },
         { question:"What is the sum of the angles in a hexagon?", answer:16, imageUrl: 'images/image6.jpeg'},
         { question:"How many factors does 16 have? ", answer:5, imageUrl: 'images/image7.jpeg'},
         { question:"Solve for x in the equation: 5x - 7 = 18.", answer:5, imageUrl: 'images/image8.jpeg'},
